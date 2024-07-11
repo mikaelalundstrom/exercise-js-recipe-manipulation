@@ -41,13 +41,13 @@ console.log(imgRefObject);
 // Exercise 6
 console.log("Exercise 6");
 
-ingredientsListPasteRef = document.querySelector(".ingredients-list-paste");
+let ingredientsListPasteRef = document.querySelector(".ingredients-list-paste");
 
 console.log(`The paste has ${ingredientsListPasteRef.children.length} ingredients.`);
 
 // Exercise 7
 console.log("Exercise 7");
-pasteIngredientEl4 = ingredientsListPasteRef.children[3].outerHTML;
+let pasteIngredientEl4 = ingredientsListPasteRef.children[3].outerHTML;
 console.log(`The fourth element in the paste ingredients list is "${pasteIngredientEl4}"`);
 
 // Exercise 8
